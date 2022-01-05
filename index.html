@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>mirage</title>
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <link href="http://fonts.cdnfonts.com/css/circular-std" rel="stylesheet">
     <link href="http://fonts.cdnfonts.com/css/proxima-nova-2" rel="stylesheet">
     <link rel="stylesheet" href="./css/col.css">
@@ -195,7 +196,137 @@
                 </div>
             </div>
         </section>
+        <section id="blog">
+            <div class="blog-div row middle between">
+                <img class="blog-img" src="./images/massage.svg" alt="massage" width="250" height="250">
+                <div class="in-blog">
+                    <h2 class="blog-title">Subscribe To Our Blog</h2>
+                    <p class="blog-text">A newsletter is a tool used to communicate regularly with
+                        your subscribers, delivering the information</p>
+                </div>
+            </div>
+            <div class="form-group">
+                <form class="form-email row middle between"> 
+                    <div class="input">
+                        <i class='bx bx-mail-send'></i>
+                        <input type="email" id="email" placeholder="Type Your Email Address" required>
+                    </div> 
+                    <button class="form-btn" type="submit">Send now 
+                        <span class="hero-br"></span>
+                        <img
+                        class="hero-right" src="./images/strelka.svg" alt="dash" width="29"
+                        height="13">
+                    </button>
+                </form>
+            </div>
+        </section>
     </main>
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-block">
+                    <a class="link-logo" href="#">
+                        <img src="./images/mirage-logo.svg" alt="logo" width="127" height="30">
+                    </a>
+                    <p class="footer-text">560 N Riverview D Ste 658 <br>
+                        North Carolina DA 598745 USA
+                    </p>
+                    <p class="footer-text after">Follow us on</p>
+                    <ul class="social-list row middle">
+                        <li class="social-item list-sty">
+                            <a href="#" target="_blank">
+                                <img src="./images/instagram2.svg" alt="instagram" width="41" height="41">
+                            </a>
+                        </li>
+                        <li class="social-item list-sty">
+                            <a href="#" target="_blank">
+                                <img src="./images/twitter2.svg" alt="twitter" width="41" height="41">
+                            </a>
+                        </li>
+                        <li class="social-item list-sty">
+                            <a href="#" target="_blank">
+                                <img src="./images/youtube2.svg" alt="youtube" width="41" height="41">
+                            </a>
+                        </li>
+                        <li class="social-item list-sty">
+                            <a href="#" target="_blank">
+                                <img src="./images/facebook2.svg" alt="facebook" width="41" height="41">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="footer-list row"> 
+                    <li class="footer-item list-sty">
+                        <h3 class="footer-title">Resouces</h3>
+                        <ul class="in-list">
+                            <li class="in-item list-sty">
+                                <a class="fo-item-link text-none" href="#">Revisions</a>
+                            </li>
+                            <li class="in-item list-sty">
+                                <a class="fo-item-link text-none" href="#">Sheets</a>
+                            </li>
+                            <li class="in-item list-sty">
+                                <a class="fo-item-link text-none" href="#">Quiz</a>
+                            </li>
+                            <li class="in-item list-sty">
+                                <a class="fo-item-link text-none" href="#">Drill</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="footer-item list-sty">
+                        <h3 class="footer-title">About</h3>
+                        <ul class="in-list">
+                            <li class="in-item list-sty">
+                                <a class="fo-item-link text-none" href="#">About us</a>
+                            </li>
+                            <li class="in-item list-sty">
+                                <a class="fo-item-link text-none" href="#">Partners</a>
+                            </li>
+                            <li class="in-item list-sty">
+                                <a class="fo-item-link text-none" href="#">Contact us</a>
+                            </li>
+                            <li class="in-item list-sty">
+                                <a class="fo-item-link text-none" href="#">Careers</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="footer-item list-sty">
+                        <h3 class="footer-title">Helpful link</h3>
+                        <ul class="in-list">
+                            <li class="in-item list-sty">
+                                <a class="fo-item-link text-none" href="#">Mirage</a>
+                            </li>
+                            <li class="in-item list-sty">
+                                <a class="fo-item-link text-none" href="#">Solutions</a>
+                            </li>
+                            <li class="in-item list-sty">
+                                <a class="fo-item-link text-none" href="#">Industries</a>
+                            </li>
+                            <li class="in-item list-sty">
+                                <a class="fo-item-link text-none" href="#">Services</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="colors">
+            <div class="container row between middle">
+                <a class="colors-link text-none row middle" href="#">
+                    <img class="solid" src="./images/la_copyright-solid.svg" alt="solid" width="16" height="16">
+                    All Rights Reserved By Mirage 2020
+                </a>
+                <div class="select row">
+                    <img src="./images/Web.svg" alt="web" width="28" height="28">
+                    <select class="lang" name="lang" id="lang">
+                        <option class="option-part" value="eng">Eng</option>
+                        <option class="option-part" value="ru">Rus</option>
+                        <option class="option-part" value="uz">Uz</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
