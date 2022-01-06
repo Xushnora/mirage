@@ -170,13 +170,14 @@ body{
     padding-bottom: 23px;
 }
 
-.act{
-    border: 2px solid transparent;
-    background: #f78cb6;
+.item-blc:hover{
+    outline: 2px solid transparent;
+    background-color: #f78cb6;
     border-radius: 8px;
     width: 270px;
-    height: 344px;
+    height: 307px;
     margin-bottom: 10px;
+    cursor: pointer;
 }
 
 .act-tt::before{
@@ -209,6 +210,10 @@ body{
     align-items: center;
 }
 
+.item-title:hover{
+    /* color: #fff; */
+}
+
 .item-title::before{
     content: '';
     width: 50px;
@@ -234,6 +239,10 @@ body{
     font-size: 16px;
     line-height: 24px;
     color: #919299;
+}
+
+.item-text:hover{
+    /* color: #fff; */
 }
 
 .services-block{
