@@ -159,6 +159,10 @@ body{
     margin-bottom: 58px;
 }
 
+.brand-link{
+    display: none;
+}
+
 .item-blc{
     border: 2px solid transparent;
     background-color: #fff1f9;
@@ -177,6 +181,12 @@ body{
     height: 307px;
     margin-bottom: 10px;
     cursor: pointer;
+}
+.item-blc:hover .item-title{
+    color: #fff;
+}
+.item-blc:hover .item-text{
+    color: #fff;
 }
 
 .act-tt::before{
@@ -209,9 +219,7 @@ body{
     align-items: center;
 }
 
-.item-title:hover{
-    /* color: #fff; */
-}
+
 
 .item-title::before{
     content: '';
@@ -238,10 +246,6 @@ body{
     font-size: 16px;
     line-height: 24px;
     color: #919299;
-}
-
-.item-text:hover{
-    /* color: #fff; */
 }
 
 .services-block{
